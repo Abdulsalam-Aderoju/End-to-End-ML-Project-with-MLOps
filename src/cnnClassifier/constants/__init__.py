@@ -1,0 +1,7 @@
+# Managingrams and config files from a single place
+
+from pathlib import Path
+
+CONFIG_FILE_PATH = Path("config/config.yaml")
+PARAMS_FILE_PATH =  Path("params.yaml")
+
