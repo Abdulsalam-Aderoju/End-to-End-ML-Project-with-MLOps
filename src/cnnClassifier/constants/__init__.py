@@ -1,4 +1,4 @@
-# Managingrams and config files from a single place
+# Managing params and config files from a single place
 
 from pathlib import Path
 
