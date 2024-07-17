@@ -18,10 +18,11 @@ class PrepareBaseModelPipeline:
         prepare_base_model.update_base_model() 
 
 
-try:
-    logger.info(f"<-------Stage {STAGE_NAME} Started------>")
-    obj = PrepareBaseModelPipeline()
-    obj.main()
-    logger.info(f"<--------Stage {STAGE_NAME} Completed------>")
-except Exception as e:
-    raise e
+if __name__ == "__main__":
+    try:
+        logger.info(f"<-------Stage {STAGE_NAME} Started------>")
+        obj = PrepareBaseModelPipeline()
+        obj.main()
+        logger.info(f"<--------Stage {STAGE_NAME} Completed------>")
+    except Exception as e:
+        raise e

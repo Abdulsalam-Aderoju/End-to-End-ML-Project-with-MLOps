@@ -115,3 +115,219 @@ ValueError: yaml file is empty
 [2024-07-17 05:37:24,475: INFO: common: yaml file: params.yaml loaded successfully]
 [2024-07-17 05:37:24,475: INFO: common: created directory at: artifacts]
 [2024-07-17 05:37:24,475: INFO: common: created directory at: artifacts/training]
+[2024-07-17 13:02:42,182: INFO: stage_02_prepare_base_model: <-------Stage Prepare Base Model Started------>]
+[2024-07-17 13:02:42,198: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:02:42,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:02:42,217: INFO: common: created directory at: artifacts]
+[2024-07-17 13:02:42,222: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-17 13:02:43,480: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-17 13:02:44,585: INFO: stage_02_prepare_base_model: <--------Stage Prepare Base Model Completed------>]
+[2024-07-17 13:11:22,855: INFO: stage_02_prepare_base_model: <-------Stage Prepare Base Model Started------>]
+[2024-07-17 13:11:22,855: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:11:22,855: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:11:22,855: INFO: common: created directory at: artifacts]
+[2024-07-17 13:11:22,855: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-17 13:11:23,663: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-17 13:11:24,154: INFO: stage_02_prepare_base_model: <--------Stage Prepare Base Model Completed------>]
+[2024-07-17 13:12:20,382: INFO: stage_02_prepare_base_model: <-------Stage Prepare Base Model Started------>]
+[2024-07-17 13:12:20,400: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:12:20,405: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:12:20,406: INFO: common: created directory at: artifacts]
+[2024-07-17 13:12:20,406: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-17 13:12:21,107: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-17 13:12:21,607: INFO: stage_02_prepare_base_model: <--------Stage Prepare Base Model Completed------>]
+[2024-07-17 13:12:21,635: INFO: stage_03_model_trainer: <------ Stage Model Trainer Started------>]
+[2024-07-17 13:12:21,648: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:12:21,649: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:12:21,655: INFO: common: created directory at: artifacts]
+[2024-07-17 13:12:21,655: INFO: common: created directory at: artifacts/training]
+[2024-07-17 13:15:54,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:15:54,875: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:15:54,879: INFO: common: created directory at: artifacts]
+[2024-07-17 13:15:54,885: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-17 13:15:54,889: INFO: 291094384: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing to artifacts/data_ingestion/data.zip]
+[2024-07-17 13:19:05,281: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:19:05,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:19:05,294: INFO: common: created directory at: artifacts]
+[2024-07-17 13:19:05,298: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-17 13:19:05,301: INFO: 291094384: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing to artifacts/data_ingestion/data.zip]
+[2024-07-17 13:20:52,019: INFO: 291094384: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-07-17 13:21:21,960: INFO: main: <------Stage Data Ingestion Started------>]
+[2024-07-17 13:21:21,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:21:21,975: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:21:21,975: INFO: common: created directory at: artifacts]
+[2024-07-17 13:21:21,980: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-17 13:21:21,981: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing to artifacts/data_ingestion/data.zip]
+[2024-07-17 13:21:40,573: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-07-17 13:21:41,410: INFO: main: <-------Stage Data Ingestion Completed------>]
+[2024-07-17 13:21:41,411: INFO: main: <-------Stage Prepare Base Model Started------>]
+[2024-07-17 13:21:41,418: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:21:41,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:21:41,424: INFO: common: created directory at: artifacts]
+[2024-07-17 13:21:41,426: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-17 13:21:42,181: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-17 13:21:42,662: INFO: main: <--------Stage Prepare Base Model Completed------>]
+[2024-07-17 13:21:42,662: INFO: main: <------ Stage Model Trainer Started------>]
+[2024-07-17 13:21:42,672: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:21:42,678: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:21:42,679: INFO: common: created directory at: artifacts]
+[2024-07-17 13:21:42,679: INFO: common: created directory at: artifacts/training]
+[2024-07-17 13:22:51,721: INFO: main: <------Stage Data Ingestion Started------>]
+[2024-07-17 13:22:51,721: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:22:51,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:22:51,731: INFO: common: created directory at: artifacts]
+[2024-07-17 13:22:51,731: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-17 13:22:51,731: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing to artifacts/data_ingestion/data.zip]
+[2024-07-17 13:23:12,917: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1z0mreUtRmR-P-magILsDR3T7M6IkGXtY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022CCD309F40>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))]
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000022CCD309F40>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\adapters.py", line 589, in send
+    resp = conn.urlopen(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1z0mreUtRmR-P-magILsDR3T7M6IkGXtY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022CCD309F40>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    obj.main()
+  File "C:\Users\HP\Cancer Detection\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_files()
+  File "C:\Users\HP\Cancer Detection\src\cnnClassifier\components\data_ingestion.py", line 27, in download_files
+    raise e
+  File "C:\Users\HP\Cancer Detection\src\cnnClassifier\components\data_ingestion.py", line 23, in download_files
+    gdown.download(prefix+file_id, zip_download_dir)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\adapters.py", line 622, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1z0mreUtRmR-P-magILsDR3T7M6IkGXtY (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022CCD309F40>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+[2024-07-17 13:25:10,573: INFO: main: <------Stage Data Ingestion Started------>]
+[2024-07-17 13:25:10,591: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:25:10,596: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:25:10,597: INFO: common: created directory at: artifacts]
+[2024-07-17 13:25:10,598: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-17 13:25:10,599: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing to artifacts/data_ingestion/data.zip]
+[2024-07-17 13:25:34,477: ERROR: main: HTTPSConnectionPool(host='doc-10-3k-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/1oc94106cq80anffoho82quri89bc2tl/1721219100000/03596185573253187741/*/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY?uuid=48111dc5-850c-4fa6-8216-683c56c374f6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000017EB6318730>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))]
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000017EB6318730>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\adapters.py", line 589, in send
+    resp = conn.urlopen(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='doc-10-3k-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/1oc94106cq80anffoho82quri89bc2tl/1721219100000/03596185573253187741/*/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY?uuid=48111dc5-850c-4fa6-8216-683c56c374f6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000017EB6318730>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    obj.main()
+  File "C:\Users\HP\Cancer Detection\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_files()
+  File "C:\Users\HP\Cancer Detection\src\cnnClassifier\components\data_ingestion.py", line 27, in download_files
+    raise e
+  File "C:\Users\HP\Cancer Detection\src\cnnClassifier\components\data_ingestion.py", line 23, in download_files
+    gdown.download(prefix+file_id, zip_download_dir)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 724, in send
+    history = [resp for resp in gen]
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 724, in <listcomp>
+    history = [resp for resp in gen]
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 265, in resolve_redirects
+    resp = self.send(
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\anaconda3\envs\myenv\lib\site-packages\requests\adapters.py", line 622, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='doc-10-3k-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/1oc94106cq80anffoho82quri89bc2tl/1721219100000/03596185573253187741/*/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY?uuid=48111dc5-850c-4fa6-8216-683c56c374f6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000017EB6318730>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+[2024-07-17 13:26:07,031: INFO: main: <------Stage Data Ingestion Started------>]
+[2024-07-17 13:26:07,031: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:26:07,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:26:07,038: INFO: common: created directory at: artifacts]
+[2024-07-17 13:26:07,038: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-17 13:26:07,044: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing to artifacts/data_ingestion/data.zip]
+[2024-07-17 13:26:24,945: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into artifacts/data_ingestion/data.zip]
+[2024-07-17 13:26:25,841: INFO: main: <-------Stage Data Ingestion Completed------>]
+[2024-07-17 13:26:25,841: INFO: main: <-------Stage Prepare Base Model Started------>]
+[2024-07-17 13:26:25,858: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:26:25,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:26:25,865: INFO: common: created directory at: artifacts]
+[2024-07-17 13:26:25,866: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-17 13:26:26,651: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-17 13:26:26,951: INFO: main: <--------Stage Prepare Base Model Completed------>]
+[2024-07-17 13:26:26,959: INFO: main: <------ Stage Model Trainer Started------>]
+[2024-07-17 13:26:26,962: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-17 13:26:26,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-17 13:26:26,969: INFO: common: created directory at: artifacts]
+[2024-07-17 13:26:26,970: INFO: common: created directory at: artifacts/training]
+[2024-07-17 13:48:11,497: INFO: main: <------Stage Model Trainer Completed------>]
