@@ -1,6 +1,9 @@
-from src.cnnClassifier.config.configuration import ConfigurationManager
-from src.cnnClassifier.components.prepare_base_model import PrepareBaseModel
-from src.cnnClassifier import *
+# Because PYTHONPATH was set using set PYTHONPATH=%cd%, we had to remove src while importing. I do not understand why yet
+
+
+from cnnClassifier.config.configuration import ConfigurationManager
+from cnnClassifier.components.prepare_base_model import PrepareBaseModel
+from cnnClassifier import *
 
 
 STAGE_NAME = "Prepare Base Model"

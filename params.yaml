@@ -2,7 +2,26 @@ AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3]
 BATCH_SIZE: 16
 INCLUDE_TOP: False
-EPOCH: 16
+EPOCH: 1
 CLASSES: 2
 WEIGHT: imagenet
-LEARNING_RATE: 0.01
+LEARNING_RATE: 0.02
+
+
+
+# AUGMENTATION: 
+#   - True
+# IMAGE_SIZE: 
+#   - [224, 224, 3]
+# BATCH_SIZE: 
+#   - 16
+# INCLUDE_TOP: 
+#   - False
+# EPOCH: 
+#   - 1
+# CLASSES: 
+#   - 2
+# WEIGHT: 
+#   - imagenet
+# LEARNING_RATE: 
+#   - 0.02

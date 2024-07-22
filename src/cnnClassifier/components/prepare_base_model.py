@@ -1,5 +1,5 @@
-from src.cnnClassifier.entity.config_entity import PrepareBaseModelConfig
-from src.cnnClassifier.utils.common import create_directories
+from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
+from cnnClassifier.utils.common import create_directories
 import tensorflow as tf
 from pathlib import Path
 
