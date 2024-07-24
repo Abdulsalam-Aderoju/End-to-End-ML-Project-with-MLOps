@@ -1,6 +1,8 @@
 from cnnClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
 import tensorflow as tf
+import shutil
+import os
 
 
 class Training:
@@ -61,6 +63,8 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
+        os.makedirs("models_folder")
+        shutil.copy(path, "models_folder")
 
 
 

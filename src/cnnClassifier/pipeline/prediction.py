@@ -14,7 +14,7 @@ class PredictionPipeline:
         # model = load_model(os.path.join("artifacts", "training", "model.h5"))
 
         # For deployment
-        model = load_model(os.path.join("model", "model.h5"))
+        model = load_model(os.path.join("models_folder", "model.h5"))
 
         image_name = self.filename
         test_image = image.load_img(image_name, target_size = [224, 224])
