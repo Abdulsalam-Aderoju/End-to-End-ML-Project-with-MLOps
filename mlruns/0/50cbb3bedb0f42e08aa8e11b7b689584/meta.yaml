@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Cancer%20Detection/mlruns/0/50cbb3bedb0f42e08aa8e11b7b689584/artifacts
+end_time: 1721811523858
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50cbb3bedb0f42e08aa8e11b7b689584
+run_name: hilarious-hound-391
+run_uuid: 50cbb3bedb0f42e08aa8e11b7b689584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721811496896
+status: 3
+tags: []
+user_id: HP
