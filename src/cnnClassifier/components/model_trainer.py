@@ -63,6 +63,8 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
+
+        # Copy same model and paste in a new folder to be used during deployment
         os.makedirs("models_folder")
         shutil.copy(path, "models_folder")
 

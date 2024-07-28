@@ -36,12 +36,12 @@ stages:
         - 224
         - 3
         INCLUDE_TOP: false
-        LEARNING_RATE: 0.02
+        LEARNING_RATE: 0.2
         WEIGHT: imagenet
     outs:
     - path: artifacts/prepare_base_model
       hash: md5
-      md5: 7486c320e622b91f1c133fadfc545700.dir
+      md5: d6afc5fc25779e9de6a37f1b5881ffec.dir
       size: 118059248
       nfiles: 2
   training:
@@ -54,7 +54,7 @@ stages:
       nfiles: 343
     - path: artifacts/prepare_base_model
       hash: md5
-      md5: 7486c320e622b91f1c133fadfc545700.dir
+      md5: d6afc5fc25779e9de6a37f1b5881ffec.dir
       size: 118059248
       nfiles: 2
     - path: config/config.yaml
@@ -69,7 +69,7 @@ stages:
       params.yaml:
         AUGMENTATION: true
         BATCH_SIZE: 16
-        EPOCH: 2
+        EPOCH: 5
         IMAGE_SIZE:
         - 224
         - 224
@@ -77,11 +77,11 @@ stages:
     outs:
     - path: artifacts/training/model.h5
       hash: md5
-      md5: 5aa9cb64820d47ec081d70a21950a48d
+      md5: 6de8af43596b55fbd26047fe100459b5
       size: 59340720
     - path: models_folder
       hash: md5
-      md5: 102d56230f3fe15c1e231233982de95d.dir
+      md5: a7388182f78757ef40828df4e2a9043e.dir
       size: 59340720
       nfiles: 1
   model_evaluation:
