@@ -15,6 +15,7 @@ COPY . /app
 
 
 # Install the dependencies listed in requirements.txt (we can use pip since we already made python the base image)
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 
