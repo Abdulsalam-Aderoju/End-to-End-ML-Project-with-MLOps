@@ -16,5 +16,5 @@ COPY . /app
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Run the app using Python 3
+# Run the app using Python
 CMD ["python", "app.py"]
