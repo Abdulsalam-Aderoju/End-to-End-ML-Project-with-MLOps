@@ -994,3 +994,5 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com'
 [2024-07-24 23:39:11,394: INFO: common: created directory at: artifacts]
 [2024-07-24 23:39:11,394: INFO: common: created directory at: artifacts/training]
 [2024-07-24 23:46:31,296: INFO: stage_03_model_trainer: <------Stage Model Trainer Completed------>]
+[2024-07-31 06:18:50,379: INFO: helpers: Initialized MLflow to track repo "aderojuabdulsalam15/End-to-end-ML-Project-with-MLOps"]
+[2024-07-31 06:18:50,394: INFO: helpers: Repository aderojuabdulsalam15/End-to-end-ML-Project-with-MLOps initialized!]
