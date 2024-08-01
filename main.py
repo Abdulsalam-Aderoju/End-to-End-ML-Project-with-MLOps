@@ -54,7 +54,7 @@ try:
    print(f"<-----Stage {STAGE_NAME} Started----->")
    obj = ModelEvaluationPipeline()
    obj.main()
-   print(F"<--------Stage {STAGE_NAME} Completed------>")
+   print(F"<-----Stage {STAGE_NAME} Completed------>")
 except Exception as e:
    logger.exception(e)
    raise e
